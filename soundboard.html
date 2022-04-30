@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <link rel="icon" href="Image/J32x32.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jotain</title>
+</head>
+
+<style>
+  body {
+    background-color: rgba(0, 0, 0, 0.911);
+   }
+</style>
+
+
+<body>
+
+<style>
+  .sound-button button {
+      background-color: aquamarine;
+      border: 1px solid rgb(0, 0, 0);
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+      float: center;
+  }
+
+.sound-button-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.sound-button button:not(:last-child){
+  border-right: none; 
+}
+
+.sound-button button:hover{
+  background-color: aqua;
+}
+
+  .sound-button{
+  text-align: center;
+  }
+
+</style>
+
+  <audio id="sound0" src="mp3/BITE MY SHINY METAL ASS.mp3"></audio>
+	<audio id="sound1" src="mp3/OH GREAT, NOW YOU TELL ME.mp3"></audio>
+  <audio id="sound2" src="mp3/ARE YOU KIDDING.mp3"></audio>
+  <audio id="sound3" src="mp3/BEATEN UP.mp3"></audio>
+  <audio id="sound4" src="mp3/BLACK JACK AND HOOKERS.mp3"></audio>
+  <audio id="sound5" src="mp3/BODIES ARE FOR HOOKERS AND FAT PEOPLE.mp3"></audio>
+  <audio id="sound6" src="mp3/BURP 1.mp3"></audio>
+  <audio id="sound7" src="mp3/BURP 2.mp3"></audio>
+  <audio id="sound8" src="mp3/BURP 3.mp3"></audio>
+  <audio id="sound9" src="mp3/CAKE YOU WANT.mp3"></audio>
+  <audio id="sound10" src="mp3/DREAM ON SKINTUBE.mp3"></audio>
+  <audio id="sound11" src="mp3/OH GREAT, NOW YOU TELL ME.mp3"></audio>
+ 
+  <div class="sound-button">
+	<button onclick="document.getElementById('sound0').play()">BITE MY SHINY METAL AS</button>
+ 	<button onclick="document.getElementById('sound1').play()">OH GREAT, NOW YOU TELL ME</button>
+   <button onclick="document.getElementById('sound2').play()">ARE YOU KIDDING</button>
+   <button onclick="document.getElementById('sound3').play()">OH GREAT, NOW YOU TELL ME</button>
+   <button onclick="document.getElementById('sound4').play()">BLACK JACK AND HOOKERS</button>
+   <button onclick="document.getElementById('sound5').play()">BODIES ARE FOR HOOKERS AND FAT PEOPLE</button>
+   <button onclick="document.getElementById('sound6').play()">BURP1</button>
+   <button onclick="document.getElementById('sound7').play()">BURP2</button>
+   <button onclick="document.getElementById('sound8').play()">BURP3</button>
+   <button onclick="document.getElementById('sound9').play()">CAKE YOU WANT</button>
+   <button onclick="document.getElementById('sound10').play()">DREAM ON SKINTUBE</button>
+   <button onclick="document.getElementById('sound11').play()">OH GREAT, NOW YOU TELL ME</button>
+  </div>
+
+
+
+   <style>
+    .button-group button {
+        background-color: #f10d06; /* background */
+  border: 1px solid rgb(0, 0, 0); /* border */
+  color: rgb(255, 255, 255); /* text */
+  padding: 10px 20px; /* padding */
+  cursor: pointer; /* cursos icon */
+  float: center; /* Float the buttons side by side */
+  
+}
+
+/* Clear floats  */
+.button-group:after {
+  content: "";
+  clear: both;
+  display: table;
+ 
+}
+
+.button-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.button-group button:hover {
+  background-color: #8f0101;
+}
+
+.button-group{
+  text-align: center;
+}
+
+</style>
+
+  
+
+
+<div class="button-group">
+  <a href="/"target="_self"> <button>Bender</button></a>
+  <a href="soundboard"target="_self"> <button>SoundBoard</button></a>
+  <a href="mp4s"target="_self"> <button>mp4</button></a>
+</div>
+
+
+
+ 
+
+</body>
+</html>
