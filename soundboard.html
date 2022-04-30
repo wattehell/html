@@ -2,27 +2,41 @@
 <html lang="fi">
 <head>
   <link rel="icon" href="Image/J32x32.png">
+<title>jotain</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>jotain</title>
-</head>
+<meta property="og:title" content="SoundBoard"/>
+<meta property="og:type" content="Testi sivu"/>
+<meta property="og:url" content="https://jotain.xyz/"/>
+<meta property="og:image" content="https://jotain.xyz/gif/bender.gif">
+<meta property="og:description" content="Bender mp3." />
 
 <style>
-  body {
-    background-color: rgba(0, 0, 0, 0.911);
-   }
-</style>
+  body  {
+    background-image: url("Image/futurmama.jpg");
+    background-size: auto;
+  }
+  </style>
 
+</head>
 
 <body>
 
 <style>
   .sound-button button {
-      background-color: aquamarine;
-      border: 1px solid rgb(0, 0, 0);
-      color: rgb(0, 0, 0);
-      cursor: pointer;
-      float: center;
+  width: 100px;
+  height: 100px;
+  line-height: 1.5;
+  border: 2.5px solid #1b95c5;
+  border-radius: 100%;
+  text-align: center;
+  text-decoration:none;
+  font-size:70%;
+  font-weight:bold;
+  box-shadow: 0px 0px 20px rgb(3, 154, 214);
+  color: rgb(255, 255, 255); 
+  cursor: pointer; 
+  background:url();
   }
 
 .sound-button-group:after {
@@ -36,11 +50,11 @@
 }
 
 .sound-button button:hover{
-  background-color: aqua;
+  background: url();
 }
 
   .sound-button{
-  text-align: center;
+  text-align: left;
   }
 
 </style>
@@ -56,7 +70,6 @@
   <audio id="sound8" src="mp3/BURP 3.mp3"></audio>
   <audio id="sound9" src="mp3/CAKE YOU WANT.mp3"></audio>
   <audio id="sound10" src="mp3/DREAM ON SKINTUBE.mp3"></audio>
-  <audio id="sound11" src="mp3/OH GREAT, NOW YOU TELL ME.mp3"></audio>
  
   <div class="sound-button">
 	<button onclick="document.getElementById('sound0').play()">BITE MY SHINY METAL AS</button>
@@ -70,20 +83,27 @@
    <button onclick="document.getElementById('sound8').play()">BURP3</button>
    <button onclick="document.getElementById('sound9').play()">CAKE YOU WANT</button>
    <button onclick="document.getElementById('sound10').play()">DREAM ON SKINTUBE</button>
-   <button onclick="document.getElementById('sound11').play()">OH GREAT, NOW YOU TELL ME</button>
   </div>
 
 
 
    <style>
     .button-group button {
-        background-color: #f10d06; /* background */
-  border: 1px solid rgb(0, 0, 0); /* border */
-  color: rgb(255, 255, 255); /* text */
-  padding: 10px 20px; /* padding */
-  cursor: pointer; /* cursos icon */
-  float: center; /* Float the buttons side by side */
-  
+  position: relative;
+  top: 700px; left: 760px;
+  width: 100px;
+  height: 100px;
+  line-height: 1;
+  border: 2.5px solid #1b95c5;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration:none;
+  font-weight:bold;
+  box-shadow: 0px 0px 20px rgb(3, 154, 214);
+  color: rgb(255, 255, 255); 
+  cursor: pointer; 
+  background:transparent;
+ 
 }
 
 /* Clear floats  */
@@ -100,17 +120,13 @@
 
 /* Add a background color on hover */
 .button-group button:hover {
-  background-color: #8f0101;
+  background: url(http://jotain.xyz/gif/62156629.34499996_3x.gif) ;
+  background-position: center;
+
 }
 
-.button-group{
-  text-align: center;
-}
 
 </style>
-
-  
-
 
 <div class="button-group">
   <a href="/"target="_self"> <button>Bender</button></a>
@@ -118,9 +134,6 @@
   <a href="mp4s"target="_self"> <button>mp4</button></a>
 </div>
 
-
-
- 
 
 </body>
 </html>
