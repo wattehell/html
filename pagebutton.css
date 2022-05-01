@@ -4,9 +4,20 @@
   margin: 0;
 }
 
+.button-group {
+  max-width: 10px;
+  margin: 10px auto;
+  padding: 0px;
+  display: flexd;
+  grid-template-columns: 1rf;
+  
+}
+
 .button-group{
+  position: absolute;
+  bottom: 100px; left: 800px;
     max-width: auto;
-    margin: 0px auto;
+    margin: 0;
     display: flex;
 }
 
@@ -17,30 +28,17 @@
     border: 2.5px solid #1b95c5;
     border-radius: 50%;
     text-align: center;
-    text-decoration:none;
-    font-weight:bold;
+    font-weight:lighter;
     box-shadow: 0px 0px 20px rgb(3, 154, 214);
     color: rgb(255, 255, 255); 
     cursor: pointer; 
     background:transparent;
-   
+
   }
-  
-  /* Clear floats  */
-  .button-group:after {
-    content: "";
-    clear: both;
-    display: table;
-   
-  }
-  
-  .button-group button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
-  }
-  
-  /* Add a background color on hover */
+
+
   .button-group button:hover {
     background: url(http://jotain.xyz/gif/62156629.34499996_3x.gif) ;
     background-position: center;
-  
+
   }
