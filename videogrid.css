@@ -1,18 +1,15 @@
+
 *{
     box-sizing: border-box;
-    padding: 100px;
-    margin: 100px;
+    padding: 0px;
+    margin: 0px;
   }
 
   .container{
-      max-width: left;
-      margin: 100px auto;
-      padding: 10px;
+        margin:  110px auto;
+        padding: 10px;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      column-gap: 0x;
-      row-gap: 1000px;
-
   }
 
  

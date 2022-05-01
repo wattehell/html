@@ -1,15 +1,14 @@
 
 *{
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 .sound-button {
-  max-width: 50vw;
-  object-fit: contain;
-  margin:  120px auto;
-  padding: 5px;
+  margin-left: 0;
+  margin:  110px auto;
+  padding: 10px;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   
