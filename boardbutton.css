@@ -4,23 +4,30 @@
     margin: 0;
 }
 
-body{
-    color: rgb(0, 0, 0);
-    background-image: url("Image/futurmama.jpg");
+html { 
+    background: url(Image/Qt33gA4-bender-wallpaper.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
+    
+
 .sound-button {
-    max-width: auto;
-    margin: 0px auto;
-    display: flex;
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr 1fr);
     
 }
  
 .sound-button button{
     width: 100px;
-    height: 100px;
+    height: 70px;
     line-height: 1.5;
-    border: 2.5px solid #1b95c5;
+    border: 2px solid #1b95c5;
     border-radius: 20%;
     text-align: center;
     font-size:70%;
@@ -31,9 +38,7 @@ body{
     background-color: black;
     
     }
-  .sound-button button:not(:last-child){
-    border-right: none; 
-  }
+  
   .sound-button button:hover{
     background: url();
   }
