@@ -1,0 +1,66 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.sound-button {
+  max-width: 1000px;
+  margin: 00px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  
+}
+
+.sound-button button{
+    width: 100px;
+    height: 70px;
+    line-height: 1.5;
+    border: 2px solid #1b95c5;
+    border-radius: 20%;
+    text-align: center;
+    font-size:70%;
+    font-weight:bold;
+    box-shadow: 0px 0px 20px rgb(3, 154, 214);
+    color: rgb(255, 255, 255); 
+    cursor: pointer; 
+    background-color: black;
+    
+    }
+  
+  .sound-button button:hover{
+    background: url();
+  }
+
+  html { 
+    background: url(Image/Qt33gA4-bender-wallpaper.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+@media (max-width: 500px) {
+  .sound-button {
+      
+      grid-template-columns:repeat(3, 1fr) ;
+  }
+
+  video, img {
+    max-width: 100vw;
+    max-height: 100vh;
+    object-fit: contain;
+}
+
+
+
+
+  
+
+
+  
+
+
