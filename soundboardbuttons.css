@@ -6,13 +6,15 @@
 }
 
 .sound-button {
-  margin-left: 0;
+  max-width: 960px;
   margin:  110px auto;
   padding: 10px;
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  
-}
+  /*grid-template-columns: repeat(10, 1fr);*/
+  grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+
+  }
+
 
 .sound-button button{
     width: 100px;
@@ -41,6 +43,11 @@
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
+
+
+
+
 
 
 

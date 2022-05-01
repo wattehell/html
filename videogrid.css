@@ -8,8 +8,9 @@
   .container{
         margin:  110px auto;
         padding: 10px;
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        
   }
 
  
@@ -24,6 +25,14 @@
       object-fit: contain;
   }
 
+  html { 
+    background-color: rgba(0, 0, 0, 0.952);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+  }
   
       
     
