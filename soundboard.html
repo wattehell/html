@@ -2,6 +2,8 @@
 <html lang="fi">
 <head>
   <link rel="icon" href="Image/J32x32.png">
+  <link rel="stylesheet" href="pagebutton.css">
+  <link rel="stylesheet" href="sbbuttons.css">
 <title>jotain</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,43 +23,6 @@
 </head>
 
 <body>
-
-<style>
-  .sound-button button {
-  width: 100px;
-  height: 100px;
-  line-height: 1.5;
-  border: 2.5px solid #1b95c5;
-  border-radius: 100%;
-  text-align: center;
-  text-decoration:none;
-  font-size:70%;
-  font-weight:bold;
-  box-shadow: 0px 0px 20px rgb(3, 154, 214);
-  color: rgb(255, 255, 255); 
-  cursor: pointer; 
-  background:url();
-  }
-
-.sound-button-group:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.sound-button button:not(:last-child){
-  border-right: none; 
-}
-
-.sound-button button:hover{
-  background: url();
-}
-
-  .sound-button{
-  text-align: left;
-  }
-
-</style>
 
   <audio id="sound0" src="mp3/BITE MY SHINY METAL ASS.mp3"></audio>
 	<audio id="sound1" src="mp3/OH GREAT, NOW YOU TELL ME.mp3"></audio>
@@ -86,47 +51,6 @@
   </div>
 
 
-
-   <style>
-    .button-group button {
-  position: relative;
-  top: 700px; left: 760px;
-  width: 100px;
-  height: 100px;
-  line-height: 1;
-  border: 2.5px solid #1b95c5;
-  border-radius: 50%;
-  text-align: center;
-  text-decoration:none;
-  font-weight:bold;
-  box-shadow: 0px 0px 20px rgb(3, 154, 214);
-  color: rgb(255, 255, 255); 
-  cursor: pointer; 
-  background:transparent;
- 
-}
-
-/* Clear floats  */
-.button-group:after {
-  content: "";
-  clear: both;
-  display: table;
- 
-}
-
-.button-group button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
-}
-
-/* Add a background color on hover */
-.button-group button:hover {
-  background: url(http://jotain.xyz/gif/62156629.34499996_3x.gif) ;
-  background-position: center;
-
-}
-
-
-</style>
 
 <div class="button-group">
   <a href="/"target="_self"> <button>Bender</button></a>
