@@ -1,17 +1,13 @@
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
 
-.button-group{
+
+.button-group {
   position: absolute;
-  top: 100px; left: 30px;
-  max-height: 10px;
-  max-width: 40px;
-  padding: 5px;
-  display: flex;
-}
+  top: 10px; left: 100px;
+  width: 20%;
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+
+  }
 
   .button-group button {
       width: 100px;
@@ -33,6 +29,11 @@
       background-position: center;
   
     }
+
+    
+    
+
+    
 
 
     
