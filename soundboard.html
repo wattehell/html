@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
+  <title>Soundboard</title>
   <link rel="icon" href="Image/J32x32.png">
-  <link rel="stylesheet" href="pagebuttons.css">
+  <link rel="stylesheet" href="button-page.css">
   <link rel="stylesheet" href="soundboardbuttons.css">
-  <title>jotain</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=0.9">
   <meta property="og:title" content="SoundBoard"/>
   <meta property="og:type" content="Testi sivu"/>
   <meta property="og:url" content="https://jotain.xyz/"/>
@@ -14,11 +14,9 @@
   <meta property="og:description" content="Bender mp3." />
 </head>
 
-
-
 <body>
 
-  <audio id="sound0" src="mp3/BITE MY SHINY METAL ASS.mp3"></audio>
+  <audio id="sound0" src="mp3/BITE MY SHINY METAL ASS.mp3"> <script> var audio = document.currentScript.parentElement; audio.volume = 0.3;</script></audio>
 	<audio id="sound1" src="mp3/OH GREAT, NOW YOU TELL ME.mp3"></audio>
   <audio id="sound2" src="mp3/ARE YOU KIDDING.mp3"></audio>
   <audio id="sound3" src="mp3/BEATEN UP.mp3"></audio>
@@ -200,7 +198,7 @@
   </div>
 
 
-<div class="button-group">
+<div class="button-page">
   <div><a href="/"target="_self"> <button>Homepage</button></a></div>
   <div><a href="soundboard"target="_self"> <button>SoundBoard</button></a></div>
   <div><a href="mp4s"target="_self"> <button>mp4</button></a></div>
