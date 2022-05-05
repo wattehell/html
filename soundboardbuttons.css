@@ -1,17 +1,12 @@
 
-*{
-  box-sizing: border-box;
-  border: solid #5B6DCD 0px;
-  
-}
 
- /* smartphones, iPhone, portrait 480x320 phones */
- @media (min-width:320px){
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px){
   .sound-button{
     position: absolute;
     top: 100px; left: 0px;
     width: 0%;
-   gap: 0%;
+    gap: 0%;
     display: inline-grid;
     grid-template-columns:repeat(4,1fr);
 }
@@ -57,7 +52,7 @@
 @media (min-width:1025px) {
 .sound-button{
   position: absolute;
-  top: 100px; left: 255px;
+  top: 100px; left: 105px;
   width: 0%;
   gap: 0;
   display:inline-grid;
@@ -68,12 +63,11 @@
 /* hi-res laptops and desktops */
 @media (min-width:1281px) {
 .sound-button {
-  position: absolute;
-  top: 100px; left: 300px;
   width: 0%;
   gap: 0;
   display: inline-grid;
   grid-template-columns: repeat(10, 1fr);
+  
 }
 }
 

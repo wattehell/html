@@ -1,17 +1,11 @@
-*{
-  box-sizing: border-box;
-  
-}
 
-
-  
 
 .button-page button {
   width: 90px;
   height: 90px;
   line-height: normal;
   border: 2.5px solid #1b95c5;
-  border-radius: 50%;
+  border-radius: 40%;
   text-align: center;
   font-weight:bold;
   box-shadow: 0px 0px 20px rgb(3, 154, 214);
@@ -25,34 +19,29 @@
 @media (min-width:320px){
   .button-page{
   position: absolute;
-  top: 5px; left: 65px;
+  top: 5px; left: 153px;
   width: 0%;
-  gap: 0;
-  display: inline-grid;
-  grid-template-columns:repeat(3,1fr);
+ 
+  
 }
 }
 /*portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 @media (min-width:480px) {
 .button-page {
   position: absolute;
-  top: 5px; left: 115px;
-  width: 0%;
-  gap: 0;
-  display: inline-grid;
-  grid-template-columns:repeat(3, 1fr);
+  top: 5px; left: 205px;
+  
 }
+  
 }
 
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width:641px)  {
 .button-page {
   position: absolute;
-  top: 5px; left: 185px;
-  width: 0%;
-  gap: 0;
-  display: inline-grid;
-  grid-template-columns:repeat(3, 1fr);
+  top: 5px; left: 270px;
+  
+  
 }
 }
 
@@ -60,11 +49,9 @@
 @media (min-width:961px)  {
 .button-page {
   position: absolute;
-  top: 5px; left: 355px;
-  width: 0%;
-  gap: 0;
-  display: inline-grid;
-  grid-template-columns:repeat(3, 1fr);
+  top: 5px; left: 450px;
+  
+  
 }
 }
 
@@ -72,11 +59,7 @@
 @media (min-width:1025px) {
 .button-page{
   position: absolute;
-  top: 5px; left: 525px;
-  width: 0%;
-  gap: 0;
-  display:inline-grid;
-  grid-template-columns:repeat(3, 1fr);
+  top: 5px; left: 460px;
 }
 }
 
@@ -84,11 +67,9 @@
 @media (min-width:1281px) {
 .button-page{
   position: absolute;
-  top: 5px; left: 670px;
-  width: 0%;
-  gap: 0;
-  display: inline-grid;
-  grid-template-columns: repeat(3, 1fr);
+  top: 5px; left: 560px;
+  
+  
 }
 }
   
