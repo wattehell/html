@@ -15,8 +15,8 @@
   
 }
 
-/* smartphones, iPhone, portrait 480x320 phones */
-@media (min-width:320px){
+/*Moive S - 320px*/
+@media screen and (min-width:320px){
   .button-page{
   position: absolute;
   top: 5px; left: 153px;
@@ -25,8 +25,8 @@
   
 }
 }
-/*portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-@media (min-width:480px) {
+/*Mobile M - 375px*/
+@media (min-width:375px) {
 .button-page {
   position: absolute;
   top: 5px; left: 205px;
@@ -35,8 +35,8 @@
   
 }
 
-/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-@media (min-width:641px)  {
+/*Mobile L - 425px*/
+@media (min-width:425px)  {
 .button-page {
   position: absolute;
   top: 5px; left: 270px;
@@ -45,33 +45,54 @@
 }
 }
 
-/* tablet, landscape iPad, lo-res laptops ands desktops */
-@media (min-width:961px)  {
+/*Tablet - 768px */
+@media (min-width:768px)  {
 .button-page {
   position: absolute;
-  top: 5px; left: 450px;
+  top: 5px; left: 331px;
   
   
 }
 }
 
-/* big landscape tablets, laptops, and desktops */
-@media (min-width:1025px) {
+/* Laptop - 1024px */
+@media (min-width:1024px) {
 .button-page{
   position: absolute;
   top: 5px; left: 460px;
 }
 }
 
-/* hi-res laptops and desktops */
-@media (min-width:1281px) {
+/* Laptop L - 1440px */
+@media (min-width:1440px) {
 .button-page{
   position: absolute;
-  top: 5px; left: 560px;
+  top: 5px; left: 562px;
   
   
 }
 }
+
+/* desktop L - 1920px */
+@media (min-width:1920px) {
+  .button-page{
+    position: absolute;
+    top: 5px; left: 762px;
+    
+    
+  }
+  }
+
+  /* 4k - 2560px*/
+@media (min-width: 2560px){
+  .button-page{
+    position: absolute;
+    top: 5px; left: 1159px;
+    
+    
+  }
+  }
+
   
     .button-page button:hover {
       background: url(http://jotain.xyz/gif/62156629.34499996_3x.gif) ;
