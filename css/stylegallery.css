@@ -53,26 +53,26 @@ h1{
   transform-origin: top;
   transition: transform ease-in-out 300ms;
 }
-
 .gallery-lightbox:target{
-  transform: scale(1,1);
+  transform: scale(1, 1);
 }
+
 
 .gallery-lightbox__content{
   width: auto;
   height:auto;
-  background: rgba(0, 0, 0, 0.973);
+  background: rgba(0, 0, 0, 0.925);
   padding: 0.0em;
   position: center;
   justify-content: center;
 }
 
 .close {
-  top: 5em;
-  right: 23em;
-  border-radius: 0%;
   text-decoration: none;
   display: flex;
+  position: absolute;
+  left: 110%;
+  width: 0;
   align-items: center;
   justify-content: center;
 }
@@ -81,11 +81,12 @@ h1{
 }
 
 .close::after{
-  content:'CLOSE';
-  color:rgb(255, 255, 255);
+  content:'X';
+  color:rgb(0, 0, 0);
   font-weight: 00;
-  font-size: 200%;
+  font-size: 500%;
 }
+
 
 
 
