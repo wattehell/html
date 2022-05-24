@@ -24,7 +24,7 @@ body{
   
 }
 
-/* three columns that sits next to each other*/
+/* three columns next to each other*/
 .gallery-column{
   -ms-flex: 25%;
   flex:25%;
