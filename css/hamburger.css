@@ -144,7 +144,7 @@ z-index: 1;
   padding: 0;
 }
 #menu a {
-  padding: 10% 0;
+  padding: 5% 0;
 }   
 }
 
@@ -184,7 +184,7 @@ z-index: 1;
   padding: 0;
 }
 #menu a {
-  padding: 10% 0;
+  padding: 5% 0;
 }   
 }
 
@@ -224,7 +224,7 @@ z-index: 1;
   padding: 0;
 }
 #menu a {
-  padding: 10% 0;
+  padding: 5% 0;
 }   
 }
 
@@ -238,10 +238,10 @@ z-index: 1;
 #menuToggle input{
   width: 40px;
   height: 32px;
-  top:-65px; left: 660px;
+  top:-65px; left:38vw;
 }
 #menuToggle span{
-  top:-65px; left: 670px;
+  top:-65px; left: 38vw;
   width: 33px;
   height: 5px;
   margin-bottom: 4px;
@@ -264,7 +264,7 @@ z-index: 1;
   padding: 0;
 }
 #menu a {
-  padding: 10% 0;
+  padding: 5% 0;
 }   
 }
 
@@ -278,10 +278,10 @@ z-index: 1;
 #menuToggle input{
   width: 40px;
   height: 32px;
-  top:-65px; left: 960px;
+  top:-65px; left: 38vw;
 }
 #menuToggle span{
-  top:-65px; left: 970px;
+  top:-65px; left: 38vw;
   width: 33px;
   height: 5px;
   margin-bottom: 4px;
@@ -304,7 +304,7 @@ z-index: 1;
   padding: 0;
 }
 #menu a {
-  padding: 10% 0;
+  padding: 5% 0;
 }   
 }
 
@@ -318,10 +318,10 @@ z-index: 1;
 #menuToggle input{
   width: 40px;
   height: 32px;
-  top:-65px; left: 1340px;
+  top:-70px; left: 34vw;
 }
 #menuToggle span{
-  top:-65px; left: 1350px;
+  top:-65px; left: 35vw;
   width: 33px;
   height: 5px;
   margin-bottom: 4px;
@@ -344,7 +344,7 @@ z-index: 1;
   padding: 0;
 }
 #menu a {
-  padding: 10% 0;
+  padding: 5% 0;
 }   
 }
 
@@ -358,10 +358,10 @@ z-index: 1;
 #menuToggle input{
   width: 40px;
   height: 32px;
-  top:-65px; left: 1820px;
+  top:-70px; left: 33.5vw;
 }
 #menuToggle span{
-  top:-65px; left: 1830px;
+  top:-65px; left: 34vw;
   width: 33px;
   height: 5px;
   margin-bottom: 4px;
@@ -370,8 +370,8 @@ z-index: 1;
 #menu{
   width: 30vw;
   margin: -100px  0 0 -50px;
-  padding: 50px;
-  padding-top: 5%;
+  padding: 30px;
+  padding-top: 0px;
 }
 #menu li{
   padding: 10px 0;
@@ -384,7 +384,7 @@ z-index: 1;
   padding: 0;
 }
 #menu a {
-  padding: 10% 0;
+  padding: 5% 0;
 }   
 }
 
@@ -398,10 +398,10 @@ z-index: 1;
 #menuToggle input{
   width: 40px;
   height: 32px;
-  top:-65px; left: 2460px;
+  top:-70px; left: 22.5vw;
 }
 #menuToggle span{
-  top:-65px; left: 2470px;
+  top:-65px; left: 23vw;
   width: 33px;
   height: 5px;
   margin-bottom: 4px;
@@ -424,6 +424,6 @@ z-index: 1;
   padding: 0;
 }
 #menu a {
-  padding: 10% 0;
+  padding: 5% 0;
 }   
 }
