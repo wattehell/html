@@ -1,7 +1,7 @@
-
+ 
 
 #box {
-  width: 20;
+  width: 10;
   height: 0;
   margin: 0px;
   z-index: 9;
@@ -21,7 +21,7 @@
     float: left;
     text-align: center;
     list-style: none;
-    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    font: "Fira Sans" 13px/1em Arial, Verdana, Helvetica;
     padding: 0;
     margin: 0;
     background-color: #00000049;
