@@ -38,7 +38,7 @@ body{
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* two columns */
 @media screen and (max-width: 1020px) {
   .gallery-column{
     -ms-flex: 50%;
@@ -48,7 +48,7 @@ body{
 }
 
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* one columm */
 @media screen and (max-width: 600px) {
   .gallery-column {
     -ms-flex: 100%;
