@@ -34,7 +34,8 @@ z-index: 1;
 #menuToggle span{
   display: block;
   position: relative;
-  background: #000000;
+  background: #0eebcd;
+  box-shadow: 1px 1px 30px rgb(16, 224, 155);
   z-index: 1;
   transform-origin: 4px 0px;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),          
@@ -55,7 +56,8 @@ z-index: 1;
 #menuToggle input:checked ~ span{
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #000000;
+  background: #0fe0ac65;
+  box-shadow: 1px 1px 10px rgba(16, 224, 155, 0.466);
 }
 /*
  * But let's hide the middle one.

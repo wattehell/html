@@ -6,7 +6,7 @@
   margin: 0px;
   z-index: 9;
   position: relative;
-  background-color: #444444;
+  background-color: #0202023a;
   display: flex;
   justify-content: center;
 }
@@ -24,7 +24,7 @@
     font: "Fira Sans" 13px/1em Arial, Verdana, Helvetica;
     padding: 0;
     margin: 0;
-    background-color: #00000049;
+    background-color: #050505d5;
   }
   .navbar a {
     padding: 18px 0;
@@ -34,7 +34,7 @@
   }
   .navbar li:hover,
   a:hover {
-    background-color: #0000003d;
+    background-color: #000000f8;
   }
   .navbar li ul {
     display: none;
@@ -46,7 +46,7 @@
     display: block;
   }
   .navbar li ul li {
-    background-color: #0000005b;;
+    background-color: #030303e5;;
   }
   .navbar li ul li a {
     border-left: 0px solid #0000005b;
