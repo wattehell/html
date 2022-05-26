@@ -2,10 +2,11 @@
 <html lang="fi">
 <head>
 <title>jotain</title>
-<link rel="icon" href="Image/J32x32.png">
+<script src="js/clock.js"></script>
+<link rel="stylesheet" href="css/clock.css">
 <link rel="stylesheet" href="css/hamburger.css">
+<link rel="icon" href="Image/J32x32.png">
 <meta charset="utf-8">
-<meta name="rating" content="general">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <style>
@@ -19,15 +20,19 @@
 
 </style>
 
-<body>
-    <div id="menuToggle">
-      
-      <input type="checkbox"/>
-    
-      <span></span>
-      <span></span>
-      <span></span>
+<body onload="realtimeClock()">
+    <div class="container">
+       <hi>Monkey</hi>
+    <div id="clock"></div>
+    </div>
 
+
+
+    <div id="menuToggle">
+      <input type="checkbox"/>
+      <span></span>
+      <span></span>
+      <span></span>
       <ul id="menu">
         <li> <a href="index.html"target="_self">Home</a></li>
         <li> <a href="soundboard"target="_self">Soundboard</a></li>
