@@ -7,7 +7,7 @@ html, body{
     height: 100%;
     position: relative;
 }
-hi{
+/*hi{
     width: 100%;
     margin-top: 15%;
     position: absolute;
@@ -18,15 +18,24 @@ hi{
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 4px;
 }
+*/
 
 #clock{
-    width:100%;
+    width:40%;
     position: absolute;
-    font-size: 8vw;
-    color: rgb(39, 189, 226);
+    border-radius: 0%;
+    font-size: 7vw;
+    text-shadow: 10px 10px 10px 10px #0eebcd;
+    color: #0eebcd;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 25%;
+    margin-top: 30%;
+    margin-left: 30%;
+    
+    
+
+    
+
 }
 
 

@@ -107,6 +107,8 @@ z-index: 1;
     color: rgb(0, 0, 0);
     display: block;
   }
+
+  
   
   /*Moive S - 320px*/
 @media screen and (min-width:320px){
@@ -118,10 +120,10 @@ z-index: 1;
 #menuToggle input{
   width: 40px;
   height: 32px;
-  top:-65px; left: 260px;
+  top:-55px; left: 74vw;
 }
 #menuToggle span{
-  top:-65px; left: 270px;
+  top:-55px; left: 75vw;
   width: 33px;
   height: 5px;
   margin-bottom: 4px;
@@ -135,8 +137,9 @@ z-index: 1;
 }
 #menu li{
   padding: 10px 0;
-  padding:  0;
+  padding:  30px 0 0 0;
   font-size: 20px;
+  
 }
 #menu li ul {
   height: auto;
@@ -158,24 +161,25 @@ z-index: 1;
 #menuToggle input{
   width: 40px;
   height: 32px;
-  top:-65px; left: 290px;
+  top:-55px; left: 74vw;
 }
 #menuToggle span{
-  top:-65px; left: 300px;;
+  top:-55px; left: 75vw;
   width: 33px;
   height: 5px;
   margin-bottom: 4px;
   border-radius: 3px;
 }
 #menu{
-  width: 50vw;
+  width: 40vw;
+  height: auto;
   margin: -100px  0 0 -50px;
   padding: 50px;
   padding-top: 5%;
 }
 #menu li{
   padding: 10px 0;
-  padding:  0;
+  padding:  30px 0 0 0;
   font-size: 20px;
 }
 #menu li ul {
@@ -201,21 +205,22 @@ z-index: 1;
   top:-65px; left: 330px;
 }
 #menuToggle span{
-  top:-65px; left: 340px;
+  top:-55px; left: 340px;
   width: 33px;
   height: 5px;
   margin-bottom: 4px;
   border-radius: 3px;
 }
 #menu{
-  width: 50vw;
+  width: 35vw;
+  height: auto;
   margin: -100px  0 0 -50px;
   padding: 50px;
   padding-top: 5%;
 }
 #menu li{
   padding: 10px 0;
-  padding:  0;
+  padding:  30px 0 0 0;
   font-size: 20px;
 }
 #menu li ul {
@@ -238,24 +243,24 @@ z-index: 1;
 #menuToggle input{
   width: 40px;
   height: 32px;
-  top:-65px; left:38vw;
+  top:-60px; left:30vw;
 }
 #menuToggle span{
-  top:-65px; left: 38vw;
+  top:-50px; left: 30vw;
   width: 33px;
   height: 5px;
   margin-bottom: 4px;
   border-radius: 3px;
 }
 #menu{
-  width: 30vw;
+  width: 20vw;
   margin: -100px  0 0 -50px;
   padding: 50px;
   padding-top: 5%;
 }
 #menu li{
   padding: 10px 0;
-  padding:  0;
+  padding:  30px 0 0 0;
   font-size: 20px;
 }
 #menu li ul {
@@ -278,24 +283,24 @@ z-index: 1;
 #menuToggle input{
   width: 40px;
   height: 32px;
-  top:-65px; left: 38vw;
+  top:-55px; left: 25vw;
 }
 #menuToggle span{
-  top:-65px; left: 38vw;
+  top:-50px; left: 26vw;
   width: 33px;
   height: 5px;
   margin-bottom: 4px;
   border-radius: 3px;
 }
 #menu{
-  width: 30vw;
+  width: 20vw;
   margin: -100px  0 0 -50px;
   padding: 50px;
   padding-top: 5%;
 }
 #menu li{
   padding: 10px 0;
-  padding:  0;
+  padding:  30px 0 0 0;
   font-size: 20px;
 }
 #menu li ul {
@@ -318,24 +323,24 @@ z-index: 1;
 #menuToggle input{
   width: 40px;
   height: 32px;
-  top:-70px; left: 34vw;
+  top:-60px; left: 20vw;
 }
 #menuToggle span{
-  top:-65px; left: 35vw;
+  top:-55px; left: 20vw;
   width: 33px;
   height: 5px;
   margin-bottom: 4px;
   border-radius: 3px;
 }
 #menu{
-  width: 30vw;
+  width: 11vw;
   margin: -100px  0 0 -50px;
   padding: 50px;
   padding-top: 5%;
 }
 #menu li{
   padding: 10px 0;
-  padding:  0;
+  padding:  30px 0 0 0;
   font-size: 20px;
 }
 #menu li ul {
@@ -351,31 +356,32 @@ z-index: 1;
 /* desktop L - 1920px */
 @media (min-width:1920px){
   #menuToggle{
-    width: 0;
-    top: 65px;
+    width: 0%;
+    top: 80px;
     left: 40px;
 } 
 #menuToggle input{
   width: 40px;
   height: 32px;
-  top:-70px; left: 33.5vw;
+  top:-70px; left: 12vw;
 }
 #menuToggle span{
-  top:-65px; left: 34vw;
+  top:-65px; left: 12vw;
   width: 33px;
   height: 5px;
   margin-bottom: 4px;
   border-radius: 3px;
 }
 #menu{
-  width: 30vw;
+  width: 10vw;
+  height: auto;
   margin: -100px  0 0 -50px;
   padding: 30px;
   padding-top: 0px;
 }
 #menu li{
   padding: 10px 0;
-  padding:  0;
+  padding:  30px 0 0 0;
   font-size: 20px;
 }
 #menu li ul {
@@ -398,24 +404,24 @@ z-index: 1;
 #menuToggle input{
   width: 40px;
   height: 32px;
-  top:-70px; left: 22.5vw;
+  top:-60px; left: 13vw;
 }
 #menuToggle span{
-  top:-65px; left: 23vw;
+  top:-50px; left: 13vw;
   width: 33px;
   height: 5px;
   margin-bottom: 4px;
   border-radius: 3px;
 }
 #menu{
-  width: 20vw;
+  width: 10vw;
   margin: -100px  0 0 -50px;
   padding: 50px;
   padding-top: 5%;
 }
 #menu li{
   padding: 10px 0;
-  padding:  0;
+  padding:  30px 0 0 0;
   font-size: 20px;
 }
 #menu li ul {
