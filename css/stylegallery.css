@@ -21,15 +21,20 @@ body{
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  box-sizing: border-box;
+  border: solid #5B6DCD 1px;
+  width: 50vw;
+  position: absolute;
+  left:25vw
   
 }
 
 /* three columns next to each other*/
 .gallery-column{
   -ms-flex: 25%;
-  flex:25%;
+  flex: 25%;
   max-width: 100%;
-  padding: 0 4px;
+  padding: 0 0.2vw;
 }
 
 .gallery-column img{
@@ -46,7 +51,6 @@ body{
     max-width: 50%;
   }
 }
-
 
 /* one columm */
 @media screen and (max-width: 600px) {
