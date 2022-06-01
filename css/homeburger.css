@@ -122,9 +122,9 @@
       /*Moive S - 320px*/
     @media screen and (min-width:320px){
       #menuToggle{
-       width: 0;
-        top: 65px;
-        left: 40px;
+       width: 0%;
+       top: 10vh;
+       left: 10vw;
     } 
     #menuToggle input{
       width: 40px;
@@ -139,33 +139,22 @@
       border-radius: 3px;
     }
     #menu{
-      width: 50vw;
-      margin: -100px  0 0 -50px;
-      padding: 50px;
-      padding-top: 5%;
-    }
-    #menu li{
-      padding: 10px 0;
-      padding:  30px 0 0 0;
-      font-size: 20px;
-      
-    }
-    #menu li ul {
-      height: auto;
-      margin:  0px;
-      padding: 0;
+      border-radius: 50%;
+      width: 270px;
+      height: 300px;
     }
     #menu a {
-      padding: 5% 0;
+      padding: 4% 25%;
+      font-size: 15px;
     }   
     }
     
      /*Mobile M - 375px*/
      @media screen and (min-width:375px){
       #menuToggle{
-        width: 0;
-        top: 65px;
-        left: 40px;
+        width: 0%;
+       top: 10vh;
+       left: 10vw;
     } 
     #menuToggle input{
       width: 40px;
@@ -180,33 +169,22 @@
       border-radius: 3px;
     }
     #menu{
-      width: 40vw;
-      height: auto;
-      margin: -100px  0 0 -50px;
-      padding: 50px;
-      padding-top: 5%;
-    }
-    #menu li{
-      padding: 10px 0;
-      padding:  30px 0 0 0;
-      font-size: 20px;
-    }
-    #menu li ul {
-      height: auto;
-      margin:  0px;
-      padding: 0;
+      border-radius: 50%;
+      width: 270px;
+      height: 300px;
     }
     #menu a {
-      padding: 5% 0;
+      padding: 4% 25%;
+      font-size: 15px;
     }   
     }
     
     /*Mobile L - 425px*/
     @media screen and (min-width:425px){
       #menuToggle{
-        width: 0;
-        top: 65px;
-        left: 40px;
+        width: 0%;
+       top: 10vh;
+       left: 10vw;
     } 
     #menuToggle input{
       width: 40px;
@@ -221,64 +199,43 @@
       border-radius: 3px;
     }
     #menu{
-      width: 35vw;
-      height: auto;
-      margin: -100px  0 0 -50px;
-      padding: 50px;
-      padding-top: 5%;
-    }
-    #menu li{
-      padding: 10px 0;
-      padding:  30px 0 0 0;
-      font-size: 20px;
-    }
-    #menu li ul {
-      height: auto;
-      margin:  0px;
-      padding: 0;
+      border-radius: 50%;
+      width: 270px;
+      height: 300px;
     }
     #menu a {
-      padding: 5% 0;
+      padding: 4% 25%;
+      font-size: 15px;
     }   
     }
     
     /*Tablet - 768px */
     @media (min-width:768px){
       #menuToggle{
-        width: 0;
-        top: 65px;
-        left: 40px;
+      width: 0%;
+      top: 20vh;
+      left: 30vw;
     } 
     #menuToggle input{
       width: 40px;
       height: 32px;
-      top:-60px; left:30vw;
+      top:-20vh; left: 60vw;
     }
     #menuToggle span{
-      top:-50px; left: 30vw;
+      top:-20vh; left: 60vw;
       width: 33px;
       height: 5px;
       margin-bottom: 4px;
       border-radius: 3px;
     }
     #menu{
-      width: 20vw;
-      margin: -100px  0 0 -50px;
-      padding: 50px;
-      padding-top: 5%;
-    }
-    #menu li{
-      padding: 10px 0;
-      padding:  30px 0 0 0;
-      font-size: 20px;
-    }
-    #menu li ul {
-      height: auto;
-      margin:  0px;
-      padding: 0;
+      border-radius: 50%;
+      width: 270px;
+      height: 300px;
     }
     #menu a {
-      padding: 5% 0;
+      padding: 4% 25%;
+      font-size: 15px;
     }   
     }
     
@@ -286,39 +243,29 @@
     @media (min-width:1024px) {
       #menuToggle{
         width: 0;
-        top: 65px;
-        left: 40px;
+        top: 15vh;
+        left: 32vw;
     } 
     #menuToggle input{
       width: 40px;
       height: 32px;
-      top:-55px; left: 25vw;
+      top:-15vh; left: 55vw;
     }
     #menuToggle span{
-      top:-50px; left: 26vw;
+      top:-15vh; left: 55vw;
       width: 33px;
       height: 5px;
       margin-bottom: 4px;
       border-radius: 3px;
     }
     #menu{
-      width: 20vw;
-      margin: -100px  0 0 -50px;
-      padding: 50px;
-      padding-top: 5%;
-    }
-    #menu li{
-      padding: 10px 0;
-      padding:  30px 0 0 0;
-      font-size: 20px;
-    }
-    #menu li ul {
-      height: auto;
-      margin:  0px;
-      padding: 0;
+      border-radius: 50%;
+      width: 300px;
+      height: 320px;
     }
     #menu a {
-      padding: 5% 0;
+      padding: 4.5% 20%;
+      font-size: 15px
     }   
     }
     
@@ -326,39 +273,30 @@
     @media (min-width:1440px) {
       #menuToggle{
         width: 0;
-        top: 65px;
-        left: 40px;
+        top: 15vh;
+        left: 33vw;
     } 
     #menuToggle input{
       width: 40px;
       height: 32px;
-      top:-60px; left: 20vw;
+      top:-15vh; left: 60vw;
     }
     #menuToggle span{
-      top:-55px; left: 20vw;
+      top:-15vh; left: 60vw;
       width: 33px;
       height: 5px;
       margin-bottom: 4px;
       border-radius: 3px;
     }
     #menu{
-      width: 11vw;
-      margin: -100px  0 0 -50px;
-      padding: 50px;
-      padding-top: 5%;
+      border-radius: 50%;
+      width: 400px;
+      height: 420px;
     }
-    #menu li{
-      padding: 10px 0;
-      padding:  30px 0 0 0;
-      font-size: 20px;
-    }
-    #menu li ul {
-      height: auto;
-      margin:  0px;
-      padding: 0;
-    }
+    
     #menu a {
-      padding: 5% 0;
+      padding: 4% 30%;
+      font-size: 20px
     }   
     }
     
@@ -386,9 +324,9 @@
       width: 400px;
       height: 420px;
     }
-    
+
     #menu a {
-      padding: 0% 40%;
+      padding: 4% 30%;
       font-size: 20px
     }   
     }
@@ -400,7 +338,7 @@
         top: 20vh;
         left: 43vw;
     }
-    } 
+    
     #menuToggle input{
         width: 333px;
         height: 132px;
@@ -418,11 +356,12 @@
       width: 400px;
       height: 420px;
     }
-   
+
     #menu a {
-      padding: 0% 40%;
+      padding:4% 30%;
       font-size: 20px
-    }   
+    }
+  }   
     
 
 
