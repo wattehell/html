@@ -1,13 +1,14 @@
+
+
 #menuToggle{
     display: block;
     position: relative;
     z-index: 1;
-      -webkit-user-select: none;
-      user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
     }
     
     #menuToggle a{
-    
       text-decoration: none;
       color: #000000;
       transition: color 0.3s ease;
@@ -36,7 +37,7 @@
       background: #0eebcd;
       box-shadow: 1px 1px 30px rgb(16, 224, 155);
       z-index: 1;
-      transform-origin: 0px 0px ;
+      transform-origin: 30% 0% ;
       transition: transform 0.5s cubic-bezier(0.77,1.2,0.05,1.2),          
                   opacity 0.55s ease;
     }
@@ -54,7 +55,7 @@
      */
     #menuToggle input:checked ~ span{
       opacity: 1;
-      transform: rotate(20deg) translate(-2px, -1px);
+      transform: rotate(10deg) translate(0px, 0px);
       background: #0fe0ac65;
       box-shadow: 1px 1px 10px rgba(16, 224, 155, 0.466);
     }
@@ -69,25 +70,31 @@
      * Ohyeah and the last one should go the other direction
      */
     #menuToggle input:checked ~ span:nth-last-child(2){
-      transform: rotate(deg) translate(30, -1px);
+      transform: rotate(deg) translate(0px, 0px);
     }
     /*
-     * Make this absolute positioned
-     * at the top left of the screen
+     * 
+     * 
      */
+    
     #menu{
-        display: block;
+      display: block;
       position: absolute;
-      background: #ededed;
-      box-shadow: 10px 10px 20px rgb(0, 0, 0);
       list-style-type: none;
       -webkit-font-smoothing: antialiased;
+      box-shadow:inset
+      
+        0 0 10px 0px rgba(253, 102, 1, 0.932),  /* inner */
+        0 0 100px 30px rgb(248, 82, 5), /* middle */
+        0 0 200px 40px rgb(189, 24, 240); /* outer */
+       
       /* to stop flickering of text in safari */
-      transform-origin: 0% 0%;
+      transform-origin: 50% 50%;
       transform: translate(-100%, 0);
-      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+      transition: transform 0.5s cubic-bezier(0.77,0.4,.05,1.0);
       transform: scale(0, 1);
     }
+    
     /*
      * And let's slide it in from the left
      */
@@ -97,6 +104,7 @@
     #menu li ul {
         display: none;
         transform: ease;
+
       }
     
     #menu li:hover ul {
@@ -105,7 +113,7 @@
     
       #menu a {
         text-decoration: none;
-        color: rgb(0, 0, 0);
+        color: rgb(235, 233, 233);
         display: block;
       }
     
@@ -358,40 +366,30 @@
     @media (min-width:1920px){
       #menuToggle{
         width: 0%;
-        top: 10vh;
-        left: 15vw;
+        top: 15vh;
+        left: 40vw;
     } 
     #menuToggle input{
       width: 333px;
       height: 132px;
-      top:35vh; left: 25vw;
+      top:-15vh; left: 2vw;
     }
     #menuToggle span{
-      top:35vh; left: 25vw;
+      top:-15vh; left: 2vw;
       width: 333px;
       height: 10px;
       margin-bottom: 20px;
       border-radius: 3px;
     }
     #menu{
-      width: 10vw;
-      height: auto;
-      margin: -100px  0 0 -50px;
-      padding: 30px;
-      padding-top: 0px;
+      border-radius: 50%;
+      width: 400px;
+      height: 420px;
     }
-    #menu li{
-      padding: 10px 0;
-      padding:  30px 0 0 0;
-      font-size: 20px;
-    }
-    #menu li ul {
-      height: auto;
-      margin:  0px;
-      padding: 0;
-    }
+    
     #menu a {
-      padding: 5% 0;
+      padding: 0% 40%;
+      font-size: 20px
     }   
     }
     
@@ -399,38 +397,35 @@
     @media (min-width: 2560px){
       #menuToggle{
         width: 0;
-        top: 10vh;
-        left: 15vw;
+        top: 20vh;
+        left: 43vw;
+    }
     } 
     #menuToggle input{
         width: 333px;
         height: 132px;
-      top:35vh; left: 28vw;
+      top:-15vh; left: 2vw;
     }
     #menuToggle span{
-      top:35vh; left: 28vw;
+      top:-15vh; left: 2vw;
       width: 333px;
       height: 10px;
       margin-bottom: 20px;
       border-radius: 3px;
     }
     #menu{
-      width: 10vw;
-      margin: -100px  0 0 -50px;
-      padding: 50px;
-      padding-top: 5%;
+      border-radius: 50%;
+      width: 400px;
+      height: 420px;
     }
-    #menu li{
-      padding: 10px 0;
-      padding:  30px 0 0 0;
-      font-size: 20px;
-    }
-    #menu li ul {
-      height: auto;
-      margin:  0px;
-      padding: 0;
-    }
+   
     #menu a {
-      padding: 5% 0;
+      padding: 0% 40%;
+      font-size: 20px
     }   
-    }
+    
+
+
+    
+
+    
