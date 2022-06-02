@@ -1,0 +1,136 @@
+
+
+.title{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.button-page button {
+    width: 350px;
+    height: 150px;
+    line-height: normal;
+    border-radius: 0%;
+    border-color:red;
+    text-align: center;
+    font-weight:bold;
+    cursor: pointer; 
+    background:transparent;
+    
+    
+    
+  }
+  .button-page button:hover {
+      transform: scale(1.1);
+      transition: 0.2s;
+  }
+
+  /*Moive S - 320px*/
+  @media screen and (min-width:320px){
+    .button-page{
+        position: absolute;
+        top: 10%; left: 2%;
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+   
+  }
+  }
+  /*Mobile M - 375px*/
+  @media (min-width:375px) {
+  .button-page {
+    position: absolute;
+    top: 10%; left: 4%;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    
+  }
+    
+  }
+  
+  /*Mobile L - 425px*/
+  @media (min-width:425px)  {
+  .button-page {
+    position: absolute;
+    top: 10%; left: 6%;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    
+    
+  }
+  }
+  
+  /*Tablet - 768px */
+  @media (min-width:768px)  {
+  .button-page {
+    position: absolute;
+    top: 25%; left: 6%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    row-gap: 300px;
+
+  }
+  }
+  
+  /* Laptop - 1024px */
+  @media (min-width:1024px) {
+  .button-page{
+    position: absolute;
+    top: 25%; left: 10%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    row-gap: 300px;
+  }
+  }
+  
+  /* Laptop L - 1440px */
+  @media (min-width:1440px) {
+  .button-page{
+    position: absolute;
+    top: 20%; left: 6%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    row-gap: 300px;
+    
+    
+  }
+  }
+  
+  /* desktop L - 1920px */
+  @media (min-width:1920px) {
+    .button-page{
+      position: absolute;
+      top: 20%; left: 6%;
+      display:grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 100px;
+    }
+    }
+  
+    /* 4k - 2560px*/
+  @media (min-width: 2560px){
+    .button-page{
+        position: absolute;
+        top: 20%; left: 17%;
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 100px;
+
+    }
+    }
+  
+    
+  
+      
+      
+  
+      
+  
+  
+      
+    

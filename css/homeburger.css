@@ -306,7 +306,7 @@
       #menuToggle{
         width: 0%;
         top: 5vh;
-        left: 40vw;
+        left: 35vw;
     } 
     #menuToggle input{
       width: 333px;
@@ -327,7 +327,7 @@
     }
 
     #menu a {
-      padding: 4% 30%;
+      padding: 5% 25%;
       font-size: 20px
     }   
     }
@@ -359,7 +359,7 @@
     }
 
     #menu a {
-      padding:4% 30%;
+      padding: 5% 25%;
       font-size: 20px
     }
   }   

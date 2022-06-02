@@ -103,15 +103,11 @@
     width: 100px;
     height: 70px;
     line-height: 1.5;
-    border: 2px solid #1b95c5;
     border-radius: 20%;
     text-align: center;
     font-size:70%;
     font-weight:bold;
-    box-shadow: 0px 0px 20px rgb(3, 154, 214);
-    color: rgb(255, 255, 255); 
     cursor: pointer; 
-    background-color: black;
     
     }
   
