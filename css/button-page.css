@@ -9,7 +9,10 @@
   font-weight:bold;
   cursor: pointer; 
   background:transparent;
-  
+}
+
+.button-page{
+  display: flex;
 }
 
 /*Moive S - 320px*/
