@@ -5,7 +5,7 @@
 @media screen and (min-width:320px){
   .sound-button{
     position: absolute;
-    top: 100px; left: 0px;
+    top: 13%; left: 0%;
     width: 0%;
     gap: 0%;
     display: inline-grid;
@@ -16,7 +16,7 @@
 @media (min-width:375px) {
 .sound-button {
   position: absolute;
-  top: 100px; left: 0px;
+  top: 13%; left: 0%;
   width: 0%;
   gap: 0;
   max-width: 480px;
@@ -29,7 +29,7 @@
 @media (min-width:425px)  {
 .sound-button {
   position: absolute;
-  top: 100px; left: 20px;
+  top: 13%; left: 5%;
   width: 0%;
   gap: 0;
   display: inline-grid;
@@ -41,7 +41,7 @@
 @media (min-width:768px)  {
 .sound-button {
   position: absolute;
-  top: 100px; left: 25px;
+  top: 13%; left: 4%;
   width: 0%;
   gap: 0;
   display: inline-grid;
@@ -53,7 +53,7 @@
 @media (min-width:1024px) {
 .sound-button{
   position: absolute;
-  top: 100px; left: 105px;
+  top: 13%; left: 10%;
   width: 0%;
   gap: 0;
   display:inline-grid;
@@ -65,7 +65,7 @@
 @media (min-width:1440px) {
 .sound-button {
   position: absolute;
-  top: 100px; left: 105px;
+  top: 13%; left: 15%;
   width: 0%;
   gap: 0;
   display: inline-grid;
@@ -78,7 +78,7 @@
 @media (min-width:1920px) {
     .sound-button {
       position: absolute;
-      top: 100px; left: 305px;
+      top: 13%; left: 23%;
       width: 0%;
       gap: 0;
       display: inline-grid;
@@ -90,11 +90,11 @@
 @media (min-width: 2560px){
   .sound-button{
     position: absolute;
-  top: 100px; left: 700px;
+    top: 10%; left: 30%;
     width: 0%;
-      gap: 0;
-      display: inline-grid;
-      grid-template-columns: repeat(10, 1fr);
+    gap: 0;
+    display: inline-grid;
+    grid-template-columns: repeat(10, 1fr);
   }
   }
 

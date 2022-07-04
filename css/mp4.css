@@ -115,3 +115,19 @@
       -o-background-size: cover;
   
   }
+
+  .container p{
+    text-align: center;
+    color: white;
+    
+    }
+    
+
+    .title h1{
+      text-align: center;
+      color: white;
+    }
+
+    .container{
+      top: 10%;
+    }

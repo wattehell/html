@@ -19,7 +19,7 @@
 @media screen and (min-width:320px){
   .button-page{
   position: absolute;
-  top: 5px; left: 153px;
+  top: 0.5%; left: 34%;
   width: 0%;
  
   
@@ -29,7 +29,7 @@
 @media (min-width:375px) {
 .button-page {
   position: absolute;
-  top: 5px; left: 205px;
+  top: 0.5%; left: 46%;
   
 }
   
@@ -39,7 +39,7 @@
 @media (min-width:425px)  {
 .button-page {
   position: absolute;
-  top: 5px; left: 270px;
+  top: 0.5%; left: 56.5%;
   
   
 }
@@ -49,7 +49,7 @@
 @media (min-width:768px)  {
 .button-page {
   position: absolute;
-  top: 5px; left: 331px;
+  top: 0.5%; left: 39%;
   
   
 }
@@ -59,7 +59,7 @@
 @media (min-width:1024px) {
 .button-page{
   position: absolute;
-  top: 5px; left: 460px;
+  top: 0.5%; left: 41.5%;
 }
 }
 
@@ -67,7 +67,7 @@
 @media (min-width:1440px) {
 .button-page{
   position: absolute;
-  top: 5px; left: 562px;
+  top: 0.5%; left: 43.5%;
   
   
 }
@@ -77,7 +77,7 @@
 @media (min-width:1920px) {
   .button-page{
     position: absolute;
-    top: 5px; left: 762px;
+    top: 0.5%; left: 44.5%;
     
     
   }
@@ -87,7 +87,7 @@
 @media (min-width: 2560px){
   .button-page{
     position: absolute;
-    top: 5px; left: 1159px;
+    top: 0.5%; left: 45.9%;
     
     
   }
