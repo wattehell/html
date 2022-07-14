@@ -6,7 +6,7 @@ body{
 
 .container{
   display:grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(10,1fr);
   grid-auto-rows: 100px 300px;
   grid-gap:10px;
   grid-auto-flow: dense;
@@ -30,7 +30,7 @@ body{
   object-fit: cover;
   object-position: 50% 50%;
   cursor:pointer;
-  transition: .5s ease-in-out;
+  transition: .4s ease-in-out;
 
 }
 
@@ -61,12 +61,6 @@ body{
   width: 100%;
 }
 
-@media screen and (max-width:500px){
-  .container{
-    grid-template-columns: repeat(1,1fr);
-  }
-}
-
 @keyframes move-down{
   0%{
     top:10%;
@@ -79,30 +73,49 @@ body{
   }
 }
 
+@media screen and (max-width:500px){
+  .container{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .w-1, .w-2, .w-3, .w-4, .w-5,
+  .w-6, .w-7, .w-8, .w-9, .w-10,
+  .w-11, .w-12, .w-13, .w-14, .w-15,
+  .w-16, .w-17, .w-18, .w-19, .w-20,
+  .w-21, .w-22, .w-23, .w-24, .w-25,
+  .w-26, .w-27, .w-28, .w-29, .w-30,
+  .w-31, .w-32, .w-33, .w-34, .w-35,
+  .w-36, .w-37, .w-38, .w-39, .w-40, .w-41{
+    grid-column: span 1;
+}
+}
+
+
+
+
 
 .w-1{
-  grid-column: span 1;
+  grid-column: span 2;
 }
 .h-1{
-  grid-row: span 4;
-}
-
-/*-------------------*/
-
-.w-2{
-  grid-column: span 1;
-}
-.h-2{
   grid-row: span 3;
 }
 
 /*-------------------*/
 
+.w-2{
+  grid-column: span 2;
+}
+.h-2{
+  grid-row: span 2;
+}
+
+/*-------------------*/
+
 .w-3{
-  grid-column: span 1;
+  grid-column: span 2;
 }
 .h-3{
-  grid-row: span 4;
+  grid-row: span 3;
 }
 
 /*-------------------*/
@@ -117,7 +130,7 @@ body{
 /*-------------------*/
 
 .w-5{
-  grid-column: span 1;
+  grid-column: span 2;
 }
 .h-5{
   grid-row: span 2;
@@ -144,7 +157,7 @@ body{
 /*-------------------*/
 
 .w-8{
-  grid-column: span 1;
+  grid-column: span 2;
 }
 .h-8{
   grid-row: span 2;
@@ -153,7 +166,7 @@ body{
 /*-------------------*/
 
 .w-9{
-  grid-column: span 1;
+  grid-column: span 2;
 }
 .h-9{
   grid-row: span 4;
@@ -162,7 +175,7 @@ body{
 /*-------------------*/
 
 .w-10{
-  grid-column: span 1;
+  grid-column: span 2;
 }
 .h-10{
   grid-row: span 4;
@@ -198,7 +211,7 @@ body{
 /*-------------------*/
 
 .w-14{
-  grid-column: span 1;
+  grid-column: span 2;
 }
 .h-14{
   grid-row: span 3;
@@ -210,7 +223,7 @@ body{
   grid-column: span 2;
 }
 .h-15{
-  grid-row: span 2;
+  grid-row: span 3;
 }
 
 /*-------------------*/
@@ -237,7 +250,7 @@ body{
   grid-column: span 2;
 }
 .h-18{
-  grid-row: span 2;
+  grid-row: span 3;
 }
 
 /*-------------------*/
@@ -252,7 +265,7 @@ body{
 /*-------------------*/
 
 .w-20{
-  grid-column: span 1;
+  grid-column: span 2;
 }
 .h-20{
   grid-row: span 3;
@@ -264,17 +277,17 @@ body{
   grid-column: span 2;
 }
 .h-21{
-  grid-row: span 2;
+  grid-row: span 3;
 }
 
 /*-------------------*/
 
-.w-22{
+/*.w-22{
   grid-column: span 2;
 }
 .h-22{
   grid-row: span 3;
-}
+}*/
 
 /*-------------------*/
 
